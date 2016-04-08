@@ -9,7 +9,8 @@ public class Usuario
     private String correo;
     private String telefono;
     private String tarjetaCredito;
-
+    
+    //Contructor de Objeto Usuario
     public Usuario(String nombre, String apellido,
                     String correo, String contraseña)
     {
@@ -19,6 +20,7 @@ public class Usuario
         this.correo = correo;
     }
 
+    //Aqui abajo se encuentran los getter y setter de cada variable deL Usuario
     public Integer getID()
     {
         return ID;
@@ -44,7 +46,7 @@ public class Usuario
         return correo;
     }
 
-   /* public String getTelefono()
+    public String getTelefono()
     {
         return telefono;
     }
@@ -52,7 +54,7 @@ public class Usuario
     public String getTarjetaCredito()
     {
         return tarjetaCredito;
-    }*/
+    }
 
     public void setID(Integer id)
     {
