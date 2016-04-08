@@ -5,6 +5,11 @@ import android.os.Bundle;
 
 public class Producto extends AppCompatActivity {
 
+    private String nombreP;
+    private String precioP;
+    private String tipoP;
+    private String ID;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
